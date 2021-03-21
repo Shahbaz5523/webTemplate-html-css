@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(238,235,236);
+}
+ul{
+    display: flex;
+}
+ul li.active{
+    color: rgb(203,51,98);
+}
+ul li.active:hover{
+    color: rgb(203,51,98);
+}
+ul li:hover{
+    color: #c8c10d;
+}
+ul li{
+    margin: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+    color: #7a6666;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+section#picContainer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background-color: rgb(248,248,248);
+}
+section#picContainer img{
+    height: 100%;
+}
+.circleContainer{
+    right: 25%;
+    z-index: 111;
+    width: 130px;
+    bottom: 100px;
+    height: 130px;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+    background-color: rgb(200,193,13);
+}
+section #circle{
+    left: 12px;
+    bottom: 5px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    position: relative;
+    border-radius: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(202,49,91);
+}
+section #circle p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+}
+#newProduct{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(234,231,232);
+}
+#newProduct div{
+    max-width: 570px;
+    font-family: 'Lato', sans-serif;
+}
+#newProduct div h1{
+    color: #7A6666;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 47px 0 18px;
+}
+#newProduct div h2{
+    font-size: 30px;
+    color: #E32A62;
+    padding: 0 0 26px;
+    font-weight: bolder;
+}
+#newProduct div p{
+    font-size: 14px;
+    color: #7a6666;
+}
+#iconContainer{
+    width: 100%;
+    color: white;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(200,193,13);
+}
+#iconContainer div{
+    width: 200px;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    background-color: #cb3362;
+}
+footer div span{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+footer div span img{
+    width: 60%;
+    margin-top: 5px;
+    object-fit: contain;
+}
+footer p{
+    margin: 15px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
